@@ -1,0 +1,21 @@
+.chat-bubble {
+  padding: 8px 12px;
+  border-radius: 16px;
+  max-width: 70%;
+  font-size: 0.9rem;
+  word-wrap: break-word;
+}
+
+/* Sender (current logged-in user) – right side */
+.chat-bubble-sent {
+  background-color: #25d366;        /* WhatsApp green-ish */
+  color: #fff;
+  border-bottom-right-radius: 2px;
+}
+
+/* Receiver – left side */
+.chat-bubble-received {
+  background-color: #e5e5ea;        /* light grey */
+  color: #000;
+  border-bottom-left-radius: 2px;
+}

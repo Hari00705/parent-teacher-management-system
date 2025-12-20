@@ -1,0 +1,48 @@
+.teacher-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: #f7f7fa;
+}
+
+.teacher-header {
+  background: #2d3436;
+  color: white;
+  padding: 18px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.teacher-navbar {
+  display: flex;
+  background: #4a4e69;
+  padding: 10px;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #dfe6e9;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+}
+
+.nav-link.active {
+  background: #9a8c98;
+  color: white;
+}
+
+.nav-link:hover {
+  background: #7d6b86;
+  color: white;
+}
+
+.logout-btn {
+  background: crimson;
+  color: white;
+  border: 0;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.parent-wrapper {
+  display: flex;
+  height: 100vh;
+  font-family: Poppins;
+}
+
+.sidebar {
+  width: 220px;
+  background: #2f3542;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  background: #57606f;
+  border-radius: 5px;
+}
+
+.sidebar a.active {
+  background: #1e90ff;
+}
+
+.sidebar .logout {
+  margin-top: auto;
+  background: #ff4757;
+  padding: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.parent-content {
+  flex: 1;
+  padding: 20px;
+  background: #f1f2f6;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+table th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.green { color: green; font-weight: bold; }
+.red { color: red; font-weight: bold; }
+
+.chat-box {
+  height: 250px;
+  background: white;
+  padding: 10px;
+  overflow-y: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.me { text-align: right; color: blue; }
+.them { text-align: left; color: black; }
